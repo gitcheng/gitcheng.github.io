@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : to_be_updated
+      short_name : chihhsiangcheng
     livefyre :
       site_id : 123
     intensedebate :
