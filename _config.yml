@@ -11,7 +11,7 @@ highlighter: pygments
 title : Random thoughts 隨便寫寫
 tagline: A wandering mind
 author :
-  name : Chih-hsiang Cheng
+  name : Chih-hsiang Cheng 鄭志祥
   email : ahsiang.c@gmail.com
   github : gitcheng
   twitter : 
@@ -116,7 +116,19 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : all
+  facebook :
+    appid : 123
+    layout : button_count
+    font :
+    faces : false
+    width : 90
+  googleplus :
+    size : medium
+    width :
+    annotation : bubble
+  linkedin :
+    counter : right      
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
