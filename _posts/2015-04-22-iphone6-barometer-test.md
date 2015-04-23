@@ -25,7 +25,7 @@ I use an App called [Bar-o-Meter](https://itunes.apple.com/us/app/bar-o-meter-al
 <img src="{{ site.url }}/images/2015/barometer_d1.jpg" width="250px" />
 
 It has a pressure reading at the center. The least significant digit is 
-0.01 mBar, or 1 pascal (Pa), which is equal to $$1\ N/m^2$$ 
+0.01 mBar, or 1 pascal (Pa), which is equal to $$1\ {\rm N}/{\rm m}^2$$ 
 (Newton per square meter) of pressure. One Newton (a unit of force) is 
 equivalent to approximately 100 grams of weight on Earth.
 
@@ -70,7 +70,7 @@ decimal point.
 
 The App can (and I assume they do) use a
 [more sophisticated formula](http://www.xcmag.com/2011/07/gps-versus-barometric-altitude-the-definitive-answer/) to convert
-the pressure to altitude. To compare the device's calculation and mime, I took
+the pressure to altitude. To compare the device's calculation and mine, I took
 two readings, one on the floor, the other one in my hand raising high.
 
 <img src="{{ site.url }}/images/2015/barometer_d1.jpg" width="250px" />
@@ -93,7 +93,8 @@ to 0.00 while the phone was sitting on a table, I moved the iPhone up and
 down a couple of time in an arm's range. I then put it back on the same table
 for about 5 seconds, then read the number. Because the phone came back to the
 same height, the reading should go back to 0.00. If we assume nothing else has
-changed, including the atmosphere pressure, in these 15 seconds, the deviation
+changed, including the atmosphere pressure, in these 15 seconds or so, 
+the deviation
 from zero was due to the resolution only. 
 
 I took 75 readings. The distribution is shown below. The root mean square
@@ -105,6 +106,6 @@ guessed.
 This result is surprising to me. Apparently I underestimated the progress
 of modern technology. Obviously one can do more tests, such as long term 
 stability and wider variations in altitude. And if the weather is changing
-quickly, for example, a hurricane is approaching, the accuracy in altitude
- will not be this good.
+quickly, for example, a hurricane is approaching, the accuracy of the
+altitude will not be this good.
 
